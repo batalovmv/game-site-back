@@ -9,7 +9,8 @@
     "generate-data": "ts-node src/generateData/allData.ts",
     "start1": "ts-node -r tsconfig-paths/register  src/generateData/allData.ts",
     "build": "tsc",
-    "restart": "pm2 restart all"
+    "restart": "pm2 restart all",
+    "install-prod": "npm install --production"
   },
   "_moduleAliases": {
     "@": "./src"
