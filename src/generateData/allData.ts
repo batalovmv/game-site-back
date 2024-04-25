@@ -1,4 +1,3 @@
-import { faker } from "@faker-js/faker";
 import { dbSetup } from "src/database";
 import bcryptjs from 'bcryptjs'
 const saltRounds = 10;//количество раундов хеширования

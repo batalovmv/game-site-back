@@ -22,7 +22,7 @@ jobs:
 
     - name: Build and Generate data
       run: |
-        npm run generate-data
+        npm run start1
         npm run build
 
     - name: Setup SSH key
