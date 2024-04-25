@@ -3,7 +3,6 @@ import bodyParser from 'body-parser';
 
 
 import { userRouter } from './routes/UserRoute';
-import { clientRouter } from './routes/ClientRoute';
 
 
 import { dbSetup } from './database';
