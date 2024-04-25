@@ -8,7 +8,7 @@
     "dev": "nodemon ts-node -r tsconfig-paths/register server.js",
     "generate-data": "ts-node src/generateData/allData.ts",
     "start1": "ts-node -r tsconfig-paths/register  src/generateData/allData.ts",
-    "build": "tsc"
+    "build": "tsc" 
   },
   "_moduleAliases": {
     "@": "./src"
